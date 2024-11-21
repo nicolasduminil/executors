@@ -1,0 +1,98 @@
+Running 40s test @ http://localhost:8080/time
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   663.38us    5.36ms 159.23ms   99.57%
+    Req/Sec    13.85k     2.39k   24.77k    92.47%
+  5504161 requests in 40.10s, 614.15MB read
+Requests/sec: 137260.64
+Transfer/sec:     15.32MB
+
+Running 40s test @ http://localhost:8080/time-async
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   754.04us    6.22ms 174.43ms   99.57%
+    Req/Sec    12.95k     2.38k   20.38k    90.84%
+  5148773 requests in 40.10s, 574.50MB read
+Requests/sec: 128398.49
+Transfer/sec:     14.33MB
+
+Running 40s test @ http://localhost:8080/time-ex
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     4.51ms    6.33ms 164.50ms   95.87%
+    Req/Sec     1.28k   139.51     1.61k    82.78%
+  508336 requests in 40.02s, 56.72MB read
+Requests/sec:  12703.17
+Transfer/sec:      1.42MB
+
+Running 40s test @ http://localhost:8080/time-f
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   818.90us    5.38ms 158.33ms   99.55%
+    Req/Sec     9.99k     2.31k   26.96k    85.32%
+  3969984 requests in 40.10s, 442.97MB read
+Requests/sec:  99003.54
+Transfer/sec:     11.05MB
+
+Running 40s test @ http://localhost:8080/time-async-di
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   822.91us    5.85ms 167.77ms   99.58%
+    Req/Sec    10.55k     2.42k   42.21k    86.02%
+  4190452 requests in 40.10s, 467.57MB read
+Requests/sec: 104501.16
+Transfer/sec:     11.66MB
+
+Running 40s test @ http://localhost:8080/time-steal
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   708.79us    4.96ms 149.96ms   99.58%
+    Req/Sec    11.59k     2.26k   14.62k    91.05%
+  4612517 requests in 40.10s, 488.27MB read
+Requests/sec: 115025.89
+Transfer/sec:     12.18MB
+
+Running 40s test @ http://localhost:8080/time-async-tpt
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     4.58ms    6.67ms 161.85ms   96.37%
+    Req/Sec     1.28k   144.52     1.72k    80.83%
+  507205 requests in 40.02s, 53.69MB read
+Requests/sec:  12674.02
+Transfer/sec:      1.34MB
+
+Running 40s test @ http://localhost:8080/time-async-direct
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   720.35us    5.16ms 154.44ms   99.61%
+    Req/Sec    11.49k     2.16k   18.56k    92.12%
+  4568151 requests in 40.10s, 483.57MB read
+Requests/sec: 113919.82
+Transfer/sec:     12.06MB
+
+Running 40s test @ http://localhost:8080/time-async-tptv
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.87ms    5.68ms 171.05ms   99.48%
+    Req/Sec     9.94k     2.11k   44.03k    89.93%
+  3948783 requests in 40.10s, 418.01MB read
+Requests/sec:  98480.35
+Transfer/sec:     10.42MB
+
+Running 40s test @ http://localhost:8080/time-scheduled
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   765.13us    4.99ms 148.89ms   99.57%
+    Req/Sec    10.40k     2.21k   34.10k    88.30%
+  4131747 requests in 40.10s, 437.38MB read
+Requests/sec: 103036.77
+Transfer/sec:     10.91MB
+
+Running 40s test @ http://localhost:8080/time-react
+  10 threads and 50 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   626.32us    5.29ms 157.66ms   99.63%
+    Req/Sec    15.71k     2.70k   21.68k    93.12%
+  6248544 requests in 40.10s, 661.46MB read
+Requests/sec: 155823.39
+Transfer/sec:     16.50MB
